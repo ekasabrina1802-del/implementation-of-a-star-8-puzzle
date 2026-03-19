@@ -1,16 +1,24 @@
-# React + Vite
+# A* 8-Puzzle Solver
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web-based implementation of the **A\*** algorithm to solve the **8-puzzle problem**. Built with **React** and **Vite**, this application allows users to enter an initial puzzle state, check whether it is solvable, and view the solution step by step.
 
-Currently, two official plugins are available:
+## Overview
+The 8-puzzle is a 3×3 board consisting of 8 numbered tiles and 1 empty space. The goal is to arrange the tiles into the correct order by sliding them into the empty space.
+This project uses the **A\*** search algorithm with the **Manhattan Distance** heuristic to find the optimal solution.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Input custom initial state
+- Validate numbers from 0 to 8
+- Check whether the puzzle is solvable
+- Solve the puzzle using A*
+- Show total steps
+- Show explored nodes
+- Display solution moves
+- Step-by-step simulation
+- Play, next, previous, and reset controls
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+- React
+- Vite
+- JavaScript
+- CSS
