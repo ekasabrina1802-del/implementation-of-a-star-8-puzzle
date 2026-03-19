@@ -1,4 +1,6 @@
 # A* 8-Puzzle Solver
+<img src="https://github.com/user-attachments/assets/6823c145-bda8-429d-920f-251d00a10ca6" alt="Tampilan 1" width="600" />
+<img src="https://github.com/user-attachments/assets/5eba4802-2273-41f5-bf61-95f5b73f6687" alt="Tampilan 2" width="600" />
 
 This project is a web-based implementation of the **A\*** algorithm to solve the **8-puzzle problem**. Built with **React** and **Vite**, this application allows users to enter an initial puzzle state, check whether it is solvable, and view the solution step by step.
 
